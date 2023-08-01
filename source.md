@@ -13,3 +13,11 @@ When you're adding or editing a source, you can select which bots can access it:
 ![](https://cdn.jsdelivr.net/gh/egoist-bot/images@main/uPic/jLpaiL.png)
 
 Then the bot will use relevant information from selected sources to use to answer your question.
+
+## Youtube video
+
+Planned.
+
+## Notion
+
+Planned.
