@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/egoit/kenja-docs' }
+      { icon: 'github', link: 'https://github.com/egoist/kenja-docs' }
     ]
   }
 })
