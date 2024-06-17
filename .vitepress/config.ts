@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,22 +7,23 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: 'https://kenja.app' },
-      { text: 'Docs', link: '/' }
+      { text: "Home", link: "https://kenja.app" },
+      { text: "Docs", link: "/" },
     ],
 
     sidebar: [
       {
-        text: 'Guide',
+        text: "Guide",
         items: [
-          {text:'Bot', link: '/bot'},
-          {text: 'Source', link: '/source'}
-        ]
-      }
+          { text: "Bot", link: "/bot" },
+          { text: "Data", link: "/data" },
+          { text: "Widget", link: "/widget" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/egoit/kenja-docs' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/egoit/kenja-docs" },
+    ],
+  },
+});
